@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="adminurl" value="http://96.84.175.78/MMP-Release2-Admin-Build.2.1.000/patients.php" />
+    <classes>
+      <class name="org.iit.mmp.tests.US_004_Tests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
