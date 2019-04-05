@@ -21,7 +21,7 @@ public class US_002_Tests extends BaseClass {
 			Assert.assertTrue(result,"Login is unsuccesful");
 	}
 
-	@Test(priority=2,enabled=false)
+	@Test(priority=2,enabled=false,description="VAlidating the Patient Appointment Header Values")
 	public void patientAppointmentHeaderValue()
 	{
 			List<WebElement> hList = validatePatientHeaderValues();
