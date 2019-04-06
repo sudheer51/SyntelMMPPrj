@@ -7,7 +7,7 @@ public class LoginTests {
 	@Test
 	public void login()
 	{
-		
+		System.out.println("in login");
 	} 
 
 }
